@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<head>
+    <title> MY Webpage</title>
+    <div> This is my demo webpage for HTML </div>
+
+    <style>
+
+        /* Class selector */
+
+        .simple_text{
+            color: blanchedalmond;
+            background-color: cadetblue;
+        }
+
+        .spacing{
+            font-style:italic; 
+            text-align:center;
+            font-weight: bold
+        }
+
+        .quote{
+            text-decoration: underline;
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        .address{
+            color: darkolivegreen;
+            background-color: darkgray;
+            border: 2px;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 5px gray;
+        }
+
+        .bold{
+            border-style: dotted; 
+            a:hover { color: green; }
+            font-style: italic;
+        }
+
+
+        /* Id Selector */
+
+        #italics{
+            border: 1px solid black;
+            margin: 10px;
+            padding: 15px;
+            background-color: cornflowerblue;
+        }
+
+        #underline{
+            letter-spacing: 2px;
+            border-style: dashed;
+        }
+
+        #delete{
+            font-family: 'Arial';
+            text-align: center;
+        }
+
+        #definition{
+            color: darkblue;
+            border-bottom: 2px,solid,rosybrown;
+        }
+
+
+        /* Element Selector */
+
+        sub{
+            color: darkseagreen;
+            float: left;
+            width: 65%;
+        }
+
+        ol{
+            color:darkmagenta;
+            background-color: #fff;
+            padding: 20px;
+        }
+
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+
+    <p class="simple_text">please visit great    
+        learning academy for free courses    
+        and after       completion, get a        free certificate </p>
+
+    <p><pre class="spacing"> please visit great    
+        learning academy for free courses    
+        and after       completion, get a        free certificate </pre></p>
+
+    <blockquote class="quote" >“You will face many defeats in life, but never let yourself be defeated.” – Maya Angelou</blockquote>
+    <p> “You will face many defeats in life, but never let yourself be defeated.” – Maya Angelou</p>
+    
+    <q >when there is a will, there is a way !!</q>
+
+    <p style="background-color: darksalmon;"> we are learning <abbr title = "Hypertext Markup Language"> HTML</abbr> and <abbr title = "Cascading Style Sheet">CSS</abbr> and 
+    you are going to master it <abbr title = "as soon as possible">ASAP</abbr> </p>
+    
+    <a style="font-family: Georgia, 'Times New Roman', Times, serif;" href="https://www.youtube.com">click here to open you tube</a><br><br>
+    <a style ="font-family:Georgia, 'Times New Roman', Times, serif; " href="https://www.amazon.com">click here to open amazon</a><br><br>
+   
+    <address class="address">
+        Written by : prachi Dehanikar<br>
+        contact number : 8080xxxxxx<br>
+        Location : #567, church street ,Nagpur<br>
+        pincode : 440035<br><br><br>
+    </address>
+
+    "The unhealthy thing"<cite> -By Pankaj Jain</cite><br><br>
+
+    <b class="bold"> B element displays text in bold</b><br><br>
+
+    <i id="italics"> I element displays text in Italics</i><br><br>
+
+    <u id="underline"> U element underlines a text</u><br><br>
+
+    DEL <del id="delete"> elevent</del> element encloses deleted text<br><br>
+
+    SUB element displays text<sub>  as a subscript</sub><br><br>
+
+    SUP element displays text<sub>  as a superscript</sub><br><br>
+    
+    <dfn id="definition"> HTML is the standard markup language for Web pages. With HTML you can create your own Website.</dfn><br><br>
+
+    <img src = "D:/Data Analytics Course/Data Scrapping/Day1 html/Task1 html/download.png" alt=" The image is not uploaded" width = "200px"><br>
+    
+    <ol>
+        <li> Wheat</li>
+        <li>Rice</li>
+        <li>Maggi</li>
+        <li>Pizza</li>
+    </ol>
+
+    <ul>
+        <li>Wheat</li>
+        <li>Rice</li>
+        <li>Maggi</li>
+        <li>Pizza</li>
+    </ul>
+
+    <DL>
+        <DT>HTML</DT>
+        <DD> HTML is the standard markup language for Web pages. With HTML you can create your own Website.</DD>
+    </DL>
+
+    <table>
+        <tr>
+            <th> Sr. No.</th>
+            <th>Name </th>
+            <th>Age </th>
+            <th>Gender </th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td> Prachi</td>
+            <td>22</td>
+            <td>Female</td>
+            <td>75</td>
+        </tr>
+    </table><br>
+
+    <form>select your gender<br>
+    <input type="checkbox" name="gender"value = "male">
+    <label>male</label><br>
+    <input type="checkbox" name="gender"value = "female">
+    <label>female</label><br>
+    <input type="checkbox" name="gender"value = "other">
+    <label>other</label><br>
+
+    </form>
+</body>
